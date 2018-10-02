@@ -1,0 +1,72 @@
+/* Main application window. */
+.app{
+	transition: background-image 2s;
+	background-image:url('https://cdn.discordapp.com/attachments/100403743844995072/496473494532653062/20170725_135839.jpg');
+	background-size:cover;
+	background-position:center;
+}
+
+/* All kinds of different layers. These need to be set to transparent to avoid stacking opaque backgorunds */
+.layer-3QrUeG,
+.layers-3iHuyZ,
+.layer-3QrUeG,
+.container-2lgZY8,
+.container-PNkimc,
+.chat-3bRxxu form,
+.messagesWrapper-3lZDfY,
+.messagesWrapper-3lZDfY,
+.chat-3bRxxu,
+.typing-2GQL18,
+.wrapper-29NfPK,
+.theme-dark #friends,
+.activityFeed-28jde9,
+.guildsAdd-21_IdK{
+	background:transparent!important;
+}
+
+/* Activity panel */
+.content-yTz4x3,
+.feed-1o0xmF{
+	background:rgba(0, 0, 0, 0.7)!important;
+}
+
+/* Friends list */
+#friends .friends-table{
+	background:rgba(0, 0, 0, 0.7)!important;
+	margin-top:0px;
+	padding-top:8px;
+}
+
+/* Far left pane listing new messages and servers joined */
+.theme-dark .guildsWrapper-5TJh6A{
+	background:rgba(0, 0, 0, 0.9);
+	border-radius:0px;
+}
+
+/* Friends lists and above-chat panes (calls, video calls, name of chat) */
+.channels-Ie2l6A,
+.theme-dark .title-3qD0b-,
+.video-1FfuMD,
+.theme-dark .headerBar-UHpsPw{
+	background:rgba(0, 0, 0, 0.8);
+}
+
+/* Server Members lists and your little modal below friends / channels */
+.theme-dark .members-1998pB,
+.theme-dark .container-2Thooq{
+	background:rgba(0, 0, 0, 0.3)!important;
+}
+
+/* Applies to channels currently reading / hovered over */
+.contentSelectedText-3wUhMi,
+.contentSelectedVoice-1WDIBM,
+.contentHoveredText-2D9B-x,
+.channel-2QD9_O.selected-1HYmZZ a,
+.channel-2QD9_O:hover a{
+	background:rgba(255,255,255,0.1);
+}
+
+/* Removes some app corners that let backgrounds through, very visible on white backgrounds */
+.base-3dtUhz{ 
+	border-radius:0px;
+}
