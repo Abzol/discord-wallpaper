@@ -1,7 +1,11 @@
+/* put your custom css here. */
+
+
+
 /* Main application window. */
 .app-2rEoOp{
 	transition: background-image 2s;
-	background-image:url('https://cdn.discordapp.com/attachments/100403743844995072/496473494532653062/20170725_135839.jpg');
+	background-image:url('https://cdn.discordapp.com/attachments/486586537090220033/530162412998098964/shrine.jpg');
 	background-size:cover;
 	background-position:center;
 }
@@ -14,13 +18,12 @@
 .container-PNkimc,
 .chat-3bRxxu form,
 .messagesWrapper-3lZDfY,
-.messagesWrapper-3lZDfY,
 .chat-3bRxxu,
 .typing-2GQL18,
-.wrapper-29NfPK,
 .theme-dark #friends,
 .activityFeed-28jde9,
-.guildsAdd-21_IdK{
+.guildsAdd-21_IdK,
+.privateChannels-1nO12o{
 	background:transparent!important;
 }
 
@@ -31,29 +34,45 @@
 }
 
 /* Friends list */
-#friends .friends-table{
+#friends .friends-table,
+.container-3gCOGc
+{
 	background:rgba(0, 0, 0, 0.7)!important;
 	margin-top:0px;
-	padding-top:8px;
+}
+
+.container-1r6BKw{
+	background:rgba(0, 0, 0, 0.3);
 }
 
 /* Far left pane listing new messages and servers joined */
-.theme-dark .guildsWrapper-5TJh6A{
-	background:rgba(0, 0, 0, 0.9);
+.theme-dark .guildsWrapper-5TJh6A,
+.wrapper-1Rf91z,
+.panels-j1Uci_
+{
+	background:rgba(0, 0, 0, 0.9)!important;
 	border-radius:0px;
+}
+
+/*Fixes a strange corner */
+.base-3dtUhz {
+	border-radius: 0px;
 }
 
 /* Friends lists and above-chat panes (calls, video calls, name of chat) */
 .channels-Ie2l6A,
 .theme-dark .title-3qD0b-,
 .video-1FfuMD,
-.theme-dark .headerBar-UHpsPw{
+.theme-dark .headerBar-UHpsPw,
+.privateChannels-1nO12o,
+.container-PNkimc,
+.sidebar-2K8pFh
+{
 	background:rgba(0, 0, 0, 0.8);
 }
 
 /* Server Members lists and your little modal below friends / channels */
-.theme-dark .members-1998pB,
-.theme-dark .container-2Thooq{
+.theme-dark .members-1998pB{
 	background:rgba(0, 0, 0, 0.3)!important;
 }
 
@@ -69,4 +88,10 @@
 /* Removes some app corners that let backgrounds through, very visible on white backgrounds */
 .base-3dtUhz{ 
 	border-radius:0px;
+}
+.newMessagesBar-mujexs{
+	background:rgba(0,0,0,0.8);
+	border-style:solid;
+	border-width:0px 2px 2px 2px;
+	border-color:rgba(114,137,218,.9);
 }
