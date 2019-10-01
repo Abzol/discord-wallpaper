@@ -1,6 +1,15 @@
 /* put your custom css here. */
 
 
+/* Emoji big */
+.emoji.jumboable{
+	height:5rem;
+	width:5rem;
+}
+/* Hide load screen quotes */
+.quote-3aooyW {
+	display:none;
+}
 
 /* Main application window. */
 .app-2rEoOp{
@@ -23,7 +32,8 @@
 .theme-dark #friends,
 .activityFeed-28jde9,
 .guildsAdd-21_IdK,
-.privateChannels-1nO12o{
+.privateChannels-1nO12o,
+.scroller-2FKFPG{
 	background:transparent!important;
 }
 
