@@ -6,6 +6,13 @@
 	height:5rem;
 	width:5rem;
 }
+
+/* Discord added background support themselves now? */
+/* TODO: maybe move background into here and then clean up code. maybe */
+.bg-h5JY_x {
+	display:none;
+}
+
 /* Hide load screen quotes */
 .quote-3aooyW {
 	display:none;
